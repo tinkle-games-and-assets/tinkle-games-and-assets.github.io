@@ -9,3 +9,13 @@ h1{
     font-size: 4vw;
     color: white;
 }
+#Error-box{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 60%;
+    background-color: darkgray;
+    
+}
