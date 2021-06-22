@@ -9,7 +9,8 @@ h1{
     font-size: 4vw;
     color: white;
 }
-#Error-box{
+/* #region msg-box styling */
+.msg-box{
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
@@ -17,5 +18,21 @@ h1{
     width: 60%;
     height: 60%;
     background-color: darkgray;
-    
 }
+.msg-box h1{
+    color: white;
+    text-align: center;
+    font-size: 8vw;
+}
+.msg-box p{
+    color: white;
+    text-align: center;
+    font-size: 4vw;
+}
+.msg-box a{
+    color: white;
+    text-align: center;
+    font-size: 4vw;
+    text-decoration: underline 0.5vw;
+}
+/* #endregion */
