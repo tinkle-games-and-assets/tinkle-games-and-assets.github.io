@@ -38,3 +38,14 @@ h1{
     text-decoration: underline 0.5vw;
 }
 /* #endregion */
+/* #region scrollbar styling */
+::-webkit-scrollbar-track{
+    display: none;
+    scrollbar-width: none;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 8px;
+    background-color: white;
+    width: 3px;
+}
+/* #endregion */
