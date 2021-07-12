@@ -1,6 +1,7 @@
 /* #region basic styling */
 body{
     background-color: black;
+    margin: 0;
 }
 p{
     font-size: 2vw;
@@ -9,6 +10,10 @@ p{
 h1{
     font-size: 4vw;
     color: white;
+}
+header{
+    background-image: url(Images/logo.png);
+    background-color: white;
 }
 /* #endregion */
 /* #region msg-box styling */
@@ -39,13 +44,13 @@ h1{
 }
 /* #endregion */
 /* #region scrollbar styling */
-::-webkit-scrollbar-track{
-    display: none;
-    scrollbar-width: none;
+::-webkit-scrollbar{
+    color: black;
+    width: 5px;
 }
 ::-webkit-scrollbar-thumb{
     border-radius: 8px;
     background-color: white;
-    width: 3px;
+    width: 2px;
 }
 /* #endregion */
