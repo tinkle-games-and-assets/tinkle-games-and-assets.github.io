@@ -1,3 +1,4 @@
+/* #region basic styling */
 body{
     background-color: black;
 }
@@ -9,6 +10,7 @@ h1{
     font-size: 4vw;
     color: white;
 }
+/* #endregion */
 /* #region msg-box styling */
 .msg-box{
     margin-top: auto;
